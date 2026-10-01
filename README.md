@@ -15,6 +15,8 @@ Options: JPEG + PDF results, gallery import allowed, page limit 5, full scanner 
 
 After a scan, the app shows (and logs with tag `DocScanTest`) the result code, each page URI and the PDF URI,
 page count and size, so it is visible whether the client library could read the returned files.
+It also displays every returned JPEG page and renders every PDF page with `PdfRenderer`, so the actual
+scanned content can be checked.
 
 ## Build
 
